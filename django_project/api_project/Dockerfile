@@ -16,4 +16,4 @@ ENV PYTHONUNBUFFERED 1
 EXPOSE $PORT
 
 # Запускаем сервер Django
-CMD ["python", "manage.py", "runserver", "0.0.0.0:$PORT"]
+CMD python manage.py runserver 0.0.0.0:$PORT
